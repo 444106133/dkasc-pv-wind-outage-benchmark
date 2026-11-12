@@ -1,0 +1,11 @@
+{
+  "code_of_technology": {
+    "poly-Si": 0,
+    "mono-Si": 1,
+    "CdTe": 2,
+    "CIGS": 3,
+    "a-Si": 4,
+    "CPV": 5,
+    "HIT": 6
+  }
+}

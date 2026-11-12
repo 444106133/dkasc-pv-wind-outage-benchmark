@@ -1,0 +1,25 @@
+{
+  "streams": {
+    "1": {
+      "technology": "poly-Si",
+      "mounting_type": "Fixed",
+      "nameplate_kwp": 5.0,
+      "service_start": null,
+      "service_end": null
+    },
+    "2": {
+      "technology": "mono-Si",
+      "mounting_type": "Fixed",
+      "nameplate_kwp": 5.0,
+      "service_start": null,
+      "service_end": null
+    },
+    "3": {
+      "technology": "CdTe",
+      "mounting_type": "Fixed",
+      "nameplate_kwp": 5.4,
+      "service_start": null,
+      "service_end": null
+    }
+  }
+}

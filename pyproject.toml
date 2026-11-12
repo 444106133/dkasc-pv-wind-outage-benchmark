@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pv-wind-benchmark"
+version = "1.0.0"
+description = "Generalized Photovoltaic Power Estimation and Fault-Gated Conformal Uncertainty Framework Under Persistent Wind-Telemetry Loss"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = [
+    "numpy>=1.26.0",
+    "pandas>=2.1.0",
+    "pyarrow>=15.0.0",
+    "scipy>=1.12.0",
+    "scikit-learn>=1.5.0",
+]
+
+[project.scripts]
+pv-wind-benchmark = "pv_wind_benchmark.cli:main"
